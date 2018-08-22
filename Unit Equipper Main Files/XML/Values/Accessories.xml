@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Acc_names">
+        <item>none</item>
+        <item>Ifrit's Claw</item>
+        <item>Soul of Thamasa</item>
+        <item>Shadow Dragon Scales</item>
+        <item>bracer</item>
+        <item>Elven Gloves</item>
+        <item>Ruler's Ring</item>
+        <item>Prodigy's Goggles</item>
+        <item>Earing</item>
+        <item>Celestial Gloves</item>
+        <item>Magic Amplifier</item>
+        <item>Magistral Crest</item>
+    </string-array>
+
+    <string-array name="Acchp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Accmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Accatk_values">
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Accdef_values">
+        <item>0</item>
+        <item>0</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>15</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Accmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Accspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AccPhp_values">
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AccPmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>5</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AccPatk_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AccPdef_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AccPmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="AccPspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+
+</resources>

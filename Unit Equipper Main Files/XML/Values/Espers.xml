@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Esper">
+        <item>none</item>
+        <item>Siren</item>
+        <item>Ifrit</item>
+        <item>Shiva</item>
+        <item>Carbuncle</item>
+        <item>Diablos</item>
+        <item>Golem</item>
+        <item>Ramuh</item>
+        <item>Titan</item>
+        <item>Tetra Sylpheed</item>
+        <item>Odin</item>
+        <item>Lakshmi</item>
+        <item>Bahamut</item>
+    </string-array>
+
+    <string-array name="Esper_hp">
+        <item>0</item>
+        <item>3000</item>
+        <item>4500</item>
+        <item>3300</item>
+        <item>3200</item>
+        <item>4300</item>
+        <item>5500</item>
+        <item>2800</item>
+        <item>6000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>4800</item>
+        <item>6400</item>
+    </string-array>
+
+    <string-array name="Esper_mp">
+        <item>0</item>
+        <item>3400</item>
+        <item>2200</item>
+        <item>5900</item>
+        <item>5700</item>
+        <item>6000</item>
+        <item>4300</item>
+        <item>6200</item>
+        <item>2000</item>
+        <item>5400</item>
+        <item>3900</item>
+        <item>5000</item>
+        <item>6300</item>
+    </string-array>
+
+    <string-array name="Esper_atk">
+        <item>0</item>
+        <item>1800</item>
+        <item>5100</item>
+        <item>2100</item>
+        <item>1800</item>
+        <item>1500</item>
+        <item>3200</item>
+        <item>1600</item>
+        <item>5300</item>
+        <item>2600</item>
+        <item>6000</item>
+        <item>2000</item>
+        <item>6000</item>
+    </string-array>
+
+    <string-array name="Esper_def">
+        <item>0</item>
+        <item>1900</item>
+        <item>2800</item>
+        <item>2300</item>
+        <item>3200</item>
+        <item>2300</item>
+        <item>4500</item>
+        <item>1100</item>
+        <item>4000</item>
+        <item>2000</item>
+        <item>4200</item>
+        <item>2400</item>
+        <item>6000</item>
+    </string-array>
+
+    <string-array name="Esper_mag">
+        <item>0</item>
+        <item>3600</item>
+        <item>2100</item>
+        <item>5400</item>
+        <item>4300</item>
+        <item>5300</item>
+        <item>1600</item>
+        <item>5900</item>
+        <item>1800</item>
+        <item>6000</item>
+        <item>2000</item>
+        <item>3400</item>
+        <item>6000</item>
+    </string-array>
+
+    <string-array name="Esper_spr">
+        <item>0</item>
+        <item>3600</item>
+        <item>2100</item>
+        <item>5400</item>
+        <item>6000</item>
+        <item>3100</item>
+        <item>1600</item>
+        <item>4500</item>
+        <item>3200</item>
+        <item>3500</item>
+        <item>2200</item>
+        <item>5700</item>
+        <item>6000</item>
+    </string-array>
+
+</resources>

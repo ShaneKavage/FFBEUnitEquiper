@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Ability_names">
+        <item>none</item>
+        <item>Echidna's Kiss</item>
+        <item>Seal of Destruction</item>
+        <item>Quick Assualt</item>
+        <item>Large sword Mastery</item>
+        <item>General Offensive</item>
+        <item>Instrumental Flair</item>
+        <item>Resentment</item>
+        <item>Martial Arts Mastery</item>
+        <item>Dark Bond</item>
+        <item>Dark Knight Soul</item>
+        <item>Staff Mastery</item>
+        <item>Symphonic Flair</item>
+        <item>Wisdom</item>
+    </string-array>
+
+    <string-array name="AbilityPhp">
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>25</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="AbilityPmp">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AbilityPatk">
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>50</item>
+        <item>0</item>
+        <item>50</item>
+        <item>0</item>
+        <item>40</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="AbilityPdef">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AbilityPmag">
+        <item>0</item>
+        <item>30</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>50</item>
+        <item>0</item>
+        <item>0</item>
+        <item>40</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="AbilityPspr">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>50</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+
+</resources>

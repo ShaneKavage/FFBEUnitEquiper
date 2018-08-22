@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shane.finalapps.CharSelect">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/back" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonTab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/toCalculate"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="toCalculate"
+            android:layout_weight="1"
+            android:text="Final"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/buttonChar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:onClick="toChar"
+            android:enabled="false"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Character"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/buttonEquip"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:onClick="toEquip"
+            android:text="Equipment"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/buttonAbility"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:onClick="toAbility"
+            android:text="Abilities"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/buttonEsper"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toEsper"
+            android:text="Esper"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/statScene"
+        android:layout_width="370dp"
+        android:layout_height="320dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinnerContainer"
+        android:background="@drawable/white"
+        android:layout_width="370dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/charSpin"
+            android:layout_centerHorizontal="true"
+            android:text="Character Select" />
+
+        <Spinner
+            android:id="@+id/charSpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:entries="@array/Character_Names" />
+
+        <TextView
+            android:id="@+id/CharacterStatsTV"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Character Base Stats"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

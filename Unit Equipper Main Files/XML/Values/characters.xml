@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Character_Names">
+        <item>None</item>
+        <item>A2</item>
+        <item>Barbariccia</item>
+        <item>Dark Knight Cecil</item>
+        <item>Olive</item>
+        <item>Randi</item>
+        <item>Noctis</item>
+        <item>Lightning</item>
+        <item>Onion Knight</item>
+        <item>Exdeath</item>
+        <item>Zargabaath</item>
+    </string-array>
+
+    <string-array name="char_Number">
+        <item>0</item>
+        <item>8063</item>
+        <item>8092</item>
+        <item>295</item>
+        <item>8040</item>
+        <item>331</item>
+        <item>617</item>
+        <item>258</item>
+        <item>590</item>
+        <item>369</item>
+        <item>8060</item>
+    </string-array>
+
+    <string-array name="rarity">
+        <item>0</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="hp_values">
+        <item>0</item>
+        <item>3692</item>
+        <item>3450</item>
+        <item>3711</item>
+        <item>3296</item>
+        <item>3651</item>
+        <item>3824</item>
+        <item>3615</item>
+        <item>3642</item>
+        <item>3121</item>
+        <item>3580</item>
+    </string-array>
+
+    <string-array name="mp_values">
+        <item>0</item>
+        <item>193</item>
+        <item>190</item>
+        <item>145</item>
+        <item>150</item>
+        <item>153</item>
+        <item>174</item>
+        <item>157</item>
+        <item>162</item>
+        <item>188</item>
+        <item>182</item>
+    </string-array>
+
+    <string-array name="atk_values">
+        <item>0</item>
+        <item>153</item>
+        <item>110</item>
+        <item>155</item>
+        <item>156</item>
+        <item>142</item>
+        <item>158</item>
+        <item>145</item>
+        <item>158</item>
+        <item>117</item>
+        <item>146</item>
+    </string-array>
+
+    <string-array name="def_values">
+        <item>0</item>
+        <item>142</item>
+        <item>118</item>
+        <item>123</item>
+        <item>124</item>
+        <item>128</item>
+        <item>120</item>
+        <item>126</item>
+        <item>120</item>
+        <item>109</item>
+        <item>128</item>
+    </string-array>
+
+    <string-array name="mag_values">
+        <item>0</item>
+        <item>85</item>
+        <item>156</item>
+        <item>116</item>
+        <item>106</item>
+        <item>111</item>
+        <item>150</item>
+        <item>123</item>
+        <item>119</item>
+        <item>145</item>
+        <item>130</item>
+    </string-array>
+
+    <string-array name="spr_values">
+        <item>0</item>
+        <item>121</item>
+        <item>140</item>
+        <item>117</item>
+        <item>102</item>
+        <item>119</item>
+        <item>136</item>
+        <item>120</item>
+        <item>125</item>
+        <item>123</item>
+        <item>126</item>
+    </string-array>
+
+
+    <string-array name="Php_values">
+        <item>0</item>
+        <item>30</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>30</item>
+        <item>20</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="Pmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>0</item>
+        <item>30</item>
+        <item>20</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="Patk_values">
+        <item>0</item>
+        <item>80</item>
+        <item>0</item>
+        <item>50</item>
+        <item>80</item>
+        <item>65</item>
+        <item>80</item>
+        <item>30</item>
+        <item>80</item>
+        <item>0</item>
+        <item>80</item>
+    </string-array>
+
+    <string-array name="Pdef_values">
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>40</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="Pmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>80</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="Pspr_values">
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="DH_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>75</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+
+</resources>

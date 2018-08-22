@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Chest_names">
+        <item>none</item>
+        <item>Crimson Slayer</item>
+        <item>Monster Breastplate</item>
+        <item>Assassin's Vest</item>
+        <item>curiass</item>
+        <item>Onion Armor</item>
+        <item>Brave Suit</item>
+        <item>Apron Dress</item>
+        <item>plate</item>
+        <item>Cloak of the Ghoul</item>
+        <item>Tabby Suit</item>
+        <item>Kingsglaive Uniform</item>
+    </string-array>
+
+    <string-array name="Chesthp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>100</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Chestmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Chestatk_values">
+        <item>0</item>
+        <item>0</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>8</item>
+        <item>0</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="Chestdef_values">
+        <item>0</item>
+        <item>52</item>
+        <item>46</item>
+        <item>40</item>
+        <item>50</item>
+        <item>40</item>
+        <item>51</item>
+        <item>49</item>
+        <item>75</item>
+        <item>35</item>
+        <item>30</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="Chestmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+    </string-array>
+
+
+
+    <string-array name="Chestspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>49</item>
+        <item>0</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ChestPhp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="ChestPmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ChestPatk_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ChestPdef_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ChestPmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ChestPspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

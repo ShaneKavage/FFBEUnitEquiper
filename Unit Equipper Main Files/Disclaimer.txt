@@ -1,0 +1,4 @@
+This is an open source project that possibly uses trademarked images from square enix's FFBE.
+These images are currently placeholder and may or may not be used at all.
+There is no profit to be made from this and is purely for a functional calculator for the benefit of others, 
+as well as a learning experience.

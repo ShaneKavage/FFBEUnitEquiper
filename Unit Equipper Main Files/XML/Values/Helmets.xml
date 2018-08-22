@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Helm_names">
+        <item>none</item>
+        <item>Prishe's Hairpin</item>
+        <item>Sturdy Headband</item>
+        <item>Soul Crown</item>
+        <item>helm</item>
+        <item>Black Cowl</item>
+        <item>Onion Helm</item>
+        <item>Judge Helm</item>
+        <item>snelm</item>
+        <item>Grand Helm</item>
+        <item>Rider's Helm</item>
+        <item>White Brim</item>
+    </string-array>
+
+    <string-array name="Helmhp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Helmmp_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Helmatk_values">
+        <item>0</item>
+        <item>45</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>28</item>
+        <item>15</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>28</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="Helmdef_values">
+        <item>0</item>
+        <item>0</item>
+        <item>14</item>
+        <item>20</item>
+        <item>5</item>
+        <item>25</item>
+        <item>20</item>
+        <item>35</item>
+        <item>10</item>
+        <item>45</item>
+        <item>60</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="Helmmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="Helmspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>14</item>
+        <item>20</item>
+        <item>0</item>
+        <item>25</item>
+        <item>0</item>
+        <item>20</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+    </string-array>
+
+
+
+    <string-array name="HelmPhp_values">
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="HelmPmp_values">
+        <item>0</item>
+        <item>10</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="HelmPatk_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="HelmPdef_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="HelmPmag_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="HelmPspr_values">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

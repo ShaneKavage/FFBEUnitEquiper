@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <TitledPane text="Unit Selection">
+         <content>
+            <VBox prefHeight="947.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuButton maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Unit">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                  </MenuButton>
+                  <TitledPane prefHeight="384.0" prefWidth="326.0" text="Equipment">
+                     <content>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Helmet" textAlignment="CENTER" GridPane.rowIndex="3">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Chest" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Materia 1" textAlignment="CENTER" GridPane.rowIndex="8">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Accessory 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Materia 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Accessory 1" textAlignment="CENTER" GridPane.rowIndex="5">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Weapon 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Weapon 1" textAlignment="CENTER" GridPane.rowIndex="1">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                                  <MenuItem mnemonicParsing="false" text="Action 2" />
+                                </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Materia 3" textAlignment="CENTER" GridPane.rowIndex="10">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                              <MenuButton alignment="CENTER" lineSpacing="3.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Materia 4" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Action 1" />
+                                    <MenuItem mnemonicParsing="false" text="Action 2" />
+                                 </items>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                                 <GridPane.margin>
+                                    <Insets bottom="6.0" left="4.0" right="4.0" top="6.0" />
+                                 </GridPane.margin>
+                              </MenuButton>
+                           </children>
+                        </GridPane>
+                     </content>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </TitledPane>
+                  <TitledPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="358.0" prefWidth="326.0" text="Unit Image">
+                     <content>
+                        <ImageView fitHeight="206.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="c" />
+                     </content>
+                  </TitledPane>
+               </children>
+            </VBox>
+         </content>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="8.0" right="8.0" top="10.0" />
+         </BorderPane.margin>
+      </TitledPane>
+   </right>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TitledPane text="Element Damage" GridPane.rowIndex="3">
+               <content>
+                  <HBox prefHeight="241.0" prefWidth="554.0" />
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane text="Element Resistance" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <content>
+                  <HBox prefHeight="234.0" prefWidth="554.0" />
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane prefHeight="210.0" prefWidth="556.0" text="Ailment Damage" GridPane.rowIndex="2">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane prefHeight="206.0" prefWidth="556.0" text="Ailment Resistance" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane layoutX="16.0" layoutY="435.0" prefHeight="210.0" prefWidth="556.0" text="Base Stats" GridPane.rowIndex="1">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+            <TitledPane layoutX="10.0" layoutY="220.0" prefHeight="210.0" prefWidth="556.0" text="Stats From Equipment" GridPane.columnIndex="1">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+            <TitledPane layoutX="10.0" layoutY="220.0" prefHeight="210.0" prefWidth="556.0" text="Esper Stats" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+            <TitledPane prefHeight="210.0" prefWidth="556.0" text="Calculated Final Stats">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+</BorderPane>

@@ -17,6 +17,7 @@ My goal is to take what I learned and create something I can share with the FFBE
 ### Prerequisites
 
 [Eclipse](https://www.eclipse.org/) - IDE for Java
+
 [JavaFX Scenebuilder](https://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) -  To create and edit the FXML layout file
 
 ### Installing

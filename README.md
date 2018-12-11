@@ -7,9 +7,9 @@ My goal is to take what I learned and create something I can share with the FFBE
 
 ## ToDo
 
-1. Create Splitter for Database.json data - Upload splitter, .json data and SQL file of values.
-2. Add data into Database - MYSQL Workbench or GCP commandline
-3. Create Functionality for Controller
+1. ~~Create Splitter for Database.json data - Upload splitter, .json data and SQL file of values.~~
+2. ~~Add data into Database - MYSQL Workbench or GCP commandline~~
+3. ~~Create Functionality for Controller~~
 4. Rework visual design of FXML
 
 ## Getting Started
@@ -26,18 +26,19 @@ My goal is to take what I learned and create something I can share with the FFBE
 2. Place the .java files into the default Package. The FFBEDatabase.java and FFBEDatabaseController.java need to be in default to interact with the FXML.
 3. MySQLAccess could be placed in it's own package, I put mine in default.
 4. Add the FXML file to the project. Make sure it is within the SRC folder, but not within any packages.
+5. You will need JDBC Connector and JSON-simple-1.1.jar downloaded. Add them both to the projects buildpath.
 
 ## Running the tests
 
-Currently, the database information we have provided in the files will not allow any user to access the database. Once more security measures are in place, access will be open to the public to use.
+Users can replicate the database by using the .sql file and creating their own database.
+If you do this, you must enter your database's information into the MySQLAccess.java file to allow for connection.
+You may also need to whitelist your computer's IP to gain access.
 
 
 ### Break down into end to end tests
 
-Currently, testing is difficult without the controller set properly.
-A user could hardcode in the ID to recieve the information from whatever table they desire.
-It properly fetches the data and displays it.
-More to come on testing when the GUI is further along.
+As of now, the user should be able to select a unit, and all of the equppables, as well as an esper. Each will populate the correct stat data into the proper fields and update the final stat data. 
+Currently, ailment, element, and many of the hidden stats like evasion, killers, etc are not implemented. This is  WIP.
 
 
 ## Built With

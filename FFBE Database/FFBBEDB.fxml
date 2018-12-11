@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <right>
+      <TitledPane prefHeight="494.0" prefWidth="352.0" text="Unit Selection">
+         <content>
+            <VBox prefHeight="30.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ComboBox fx:id="UnitSpinner" prefWidth="150.0" promptText="Unit Select" />
+                  <TitledPane prefHeight="384.0" prefWidth="326.0" text="Equipment">
+                     <content>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="147.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="196.0" minWidth="10.0" prefWidth="153.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <ComboBox fx:id="WeaponSpinner" prefWidth="150.0" promptText="Weapon 1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <ComboBox fx:id="WeaponSpinner2" prefHeight="31.0" prefWidth="152.0" promptText="Weapon 2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <ComboBox fx:id="HelmetSpinner" prefWidth="150.0" promptText="Helmet" GridPane.rowIndex="3" />
+                              <ComboBox fx:id="ChestSpinner" prefWidth="150.0" promptText="Chest" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <ComboBox fx:id="AccSpinner1" prefWidth="150.0" promptText="Accessory 1" GridPane.rowIndex="5" />
+                              <ComboBox fx:id="AccSpinner2" prefWidth="150.0" promptText="Accessory 2" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <ComboBox fx:id="MateriaSpinner3" prefWidth="150.0" promptText="Ability 3" GridPane.rowIndex="10" />
+                              <ComboBox fx:id="MateriaSpinner1" prefWidth="150.0" promptText="Ability 1" GridPane.rowIndex="8" />
+                              <ComboBox fx:id="MateriaSpinner2" prefWidth="150.0" promptText="Ability 2" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <ComboBox fx:id="MateriaSpinner4" prefWidth="150.0" promptText="Ability 4" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                           </children>
+                        </GridPane>
+                     </content>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </TitledPane>
+                  <ComboBox fx:id="EsperSpinner" prefWidth="150.0" promptText="Esper Select" />
+               </children>
+            </VBox>
+         </content>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="8.0" right="8.0" top="10.0" />
+         </BorderPane.margin>
+      </TitledPane>
+   </right>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TitledPane text="Element Damage" GridPane.rowIndex="3">
+               <content>
+                  <HBox prefHeight="241.0" prefWidth="554.0" spacing="5.0">
+                     <children>
+                        <GridPane minWidth="-Infinity" prefWidth="535.0">
+                           <children>
+                              <TextArea id="fireATK" fx:id="fireATK" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" />
+                              <TextArea id="thunderATK" fx:id="thunderATK" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="darkATK" fx:id="darkATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <TextArea id="earthATK" fx:id="earthATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <TextArea id="waterATK" fx:id="waterATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <TextArea id="iceATK" fx:id="iceATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" />
+                              <TextArea id="lightATK" fx:id="lightATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextArea id="windATK" fx:id="windATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="fire ATK" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="thunder ATK" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="wind ATK" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="light ATK" GridPane.rowIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ice ATK" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="water ATK" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="earth ATK" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dark ATK" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children></HBox>
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane text="Element Resistance" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <content>
+                  <HBox prefHeight="234.0" prefWidth="554.0" spacing="5.0">
+                     <children>
+                        <GridPane minWidth="-Infinity" prefWidth="535.0">
+                           <children>
+                              <TextArea id="fireRES" fx:id="fireRES" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" />
+                              <TextArea id="thunderRES" fx:id="thunderRES" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="darkRES" fx:id="darkRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <TextArea id="earthRES" fx:id="earthRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <TextArea id="waterRES" fx:id="waterRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <TextArea id="iceRES" fx:id="iceRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" />
+                              <TextArea id="lightRES" fx:id="lightRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextArea id="windRES" fx:id="windRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="fire RES" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="thunder RES" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="wind RES" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="light RES" GridPane.rowIndex="3" />
+                              <Text id="iceRES" strokeType="OUTSIDE" strokeWidth="0.0" text="ice RES" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="water RES" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="earth RES" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dark RES" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children></HBox>
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane prefHeight="210.0" prefWidth="556.0" text="Ailment Damage" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+               <content>
+                  <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextArea id="poisonATK" fx:id="poisonATK" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" />
+                        <TextArea id="sleepATK" fx:id="sleepATK" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextArea id="petrifyATK" fx:id="petrifyATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <TextArea id="silenceATK" fx:id="silenceATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <TextArea id="blindATK" fx:id="paralysisATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <TextArea id="paralysisATK" fx:id="paralysisATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" />
+                        <TextArea id="diseaseATK" fx:id="diseaseATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextArea id="confuseATK" fx:id="confuseATK" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="poison ATK" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="sleep ATK" GridPane.rowIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="confuse ATK" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="disease ATK" GridPane.rowIndex="3" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="paralysis ATK" GridPane.columnIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="paralysis ATK" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="silence ATK" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="petrify ATK" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+               </content>
+            </TitledPane>
+            <TitledPane prefHeight="206.0" prefWidth="556.0" text="Ailment Resistance" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <content>
+                  <HBox minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <GridPane minWidth="-Infinity" prefWidth="535.0">
+                           <children>
+                              <TextArea id="poisonRES" fx:id="poisonRES" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" />
+                              <TextArea id="sleep Res" fx:id="sleepRES" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="petrifyRES" fx:id="petrifyRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <TextArea id="silenceRES" fx:id="silenceRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <TextArea id="blindRES" fx:id="blindRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <TextArea id="paralysisRES" fx:id="paralysisRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" />
+                              <TextArea id="confuseRES" fx:id="confuseRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextArea id="confuseRES" fx:id="confuseRES" editable="false" layoutX="119.0" layoutY="61.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="poison RES" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="sleep RES" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="confuse RES" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="confuse RES" GridPane.rowIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="paral RES" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="blind RES" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="silence RES" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="petrify RES" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children></HBox>
+               </content>
+               <GridPane.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </GridPane.margin>
+            </TitledPane>
+            <TitledPane layoutX="16.0" layoutY="435.0" prefHeight="210.0" prefWidth="556.0" text="Base Stats" GridPane.rowIndex="1">
+               <content>
+                  <TilePane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <GridPane alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="535.0" TilePane.alignment="CENTER">
+                          <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextArea id="baseHP" fx:id="baseHP" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" />
+                              <TextArea id="baseATK" fx:id="baseATK" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="baseMAG" fx:id="baseDEF" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextArea id="baseDEFPercent" fx:id="baseMAGPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <TextArea id="baseMPPercent" fx:id="baseMPPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" />
+                              <TextArea id="baseSPRPercent" fx:id="baseSPRPercent" editable="false" layoutX="287.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <TextArea id="baseSPR" fx:id="baseSPR" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                              <TextArea id="baseDEF" fx:id="baseMAG" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                              <TextArea id="baseMP" fx:id="baseMP" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" />
+                              <TextArea id="baseMAGPercent" fx:id="baseDEFPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <TextArea id="baseATKPercent" fx:id="baseATKPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextArea id="baseHPPercent" fx:id="baseHPPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ATK" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DEF" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MP" GridPane.columnIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MAG" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SPR" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </TilePane>
+               </content>
+            </TitledPane>
+            <TitledPane layoutX="10.0" layoutY="220.0" prefHeight="210.0" prefWidth="556.0" text="Stats From Equipment" GridPane.columnIndex="1">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <GridPane alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="535.0">
+                           <children>
+                              <TextArea id="equipHP" fx:id="equipHP" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" />
+                              <TextArea id="equipATK" fx:id="equipATK" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="equipMAG" fx:id="equipDEF" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextArea id="equipDEFPercent" fx:id="equipMAGPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <TextArea id="equipMPPercent" fx:id="equipMPPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" />
+                              <TextArea id="equipSPRPercent" fx:id="equipSPRPercent" editable="false" layoutX="287.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <TextArea id="equipSPR" fx:id="equipSPR" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                              <TextArea id="equipDEF" fx:id="equipMAG" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                              <TextArea id="equipMP" fx:id="equipMP" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" />
+                              <TextArea id="equipMAGPercent" fx:id="equipDEFPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <TextArea id="equipATKPercent" fx:id="equipATKPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextArea id="equipHPPercent" fx:id="equipHPPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ATK" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DEF" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MAG" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SPR" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <Text layoutX="311.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MP" GridPane.columnIndex="3" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </HBox>
+               </content>
+            </TitledPane>
+            <TitledPane layoutX="10.0" layoutY="220.0" prefHeight="210.0" prefWidth="556.0" text="Esper Stats" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <GridPane alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="535.0">
+                           <children>
+                              <TextArea id="esperHP" fx:id="esperHP" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" />
+                              <TextArea id="esperATK" fx:id="esperATK" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="esperMAG" fx:id="esperDEF" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextArea id="esperSPR" fx:id="esperSPR" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <TextArea id="esperDEF" fx:id="esperMAG" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <TextArea id="esperMP" fx:id="esperMP" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ATK" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DEF" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MP" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MAG" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SPR" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children></HBox>
+               </content>
+            </TitledPane>
+            <TitledPane prefHeight="210.0" prefWidth="556.0" text="Calculated Final Stats">
+               <content>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <GridPane alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="535.0">
+                           <children>
+                              <TextArea id="finalHP" fx:id="finalHP" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="52.0" prefWidth="72.0" GridPane.columnIndex="1" />
+                              <TextArea id="finalATK" fx:id="finalATK" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea id="finalMAG" fx:id="finalDEF" editable="false" layoutX="10.0" layoutY="100.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextArea id="finalDEFPercent" fx:id="finalMAGPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <TextArea id="finalMPPercent" fx:id="finalMPPercent" editable="false" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" />
+                              <TextArea id="finalSPRPercent" fx:id="finalSPRPercent" editable="false" layoutX="287.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <TextArea id="finalSPRValue" fx:id="finalSPR" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                              <TextArea id="finalDEF" fx:id="finalMAG" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                              <TextArea id="finalMP" fx:id="finalMP" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="4" />
+                              <TextArea id="finalMAGPercent" fx:id="finalDEFPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <TextArea id="finalATKPercent" fx:id="finalATKPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextArea id="finalHPPercent" fx:id="finalHPPercent" editable="false" layoutX="74.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="55.0" GridPane.columnIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HP" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ATK" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="DEF" GridPane.rowIndex="2" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MP" GridPane.columnIndex="3" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MAG" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SPR" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </HBox>
+               </content>
+            </TitledPane>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="10.0" />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+</BorderPane>

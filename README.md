@@ -1,5 +1,6 @@
 
 # FFBEUnitEquiper
+**Unit Equipper Main Files is _depricated._ Use FFBE Database instead.**
 
 This began as a bad unit calculator I made for an intro App design class.
 Ive been recoding with better practices than when I firist started.

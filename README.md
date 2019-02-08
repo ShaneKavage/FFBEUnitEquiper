@@ -66,5 +66,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Big thanks to 
-* Inspiration
+* Big thanks to the people who provided JSON data of all the games equipment and items.
+* Inspiration from Final Fantasy Brave Exvius
+* Acknowledge any images or data belongs to the company or indiviual that created the asset. We do not claim ownership in anyway.

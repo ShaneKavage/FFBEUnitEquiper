@@ -2,8 +2,8 @@
 # FFBEUnitEquiper
 **Unit Equipper Main Files is _depricated._ Use FFBE Database instead.**
 
-This began as a bad unit calculator I made for an intro App design class.
-Ive been recoding with better practices than when I firist started.
+This began as a unit calculator I made for an intro App design class.
+I've been recoding with better practices.
 My goal is to take what I learned and create something I can share with the FFBE community, and learn some new things during the process. It is a Java based program that connects to a Database using JDBC driver.
 
 ## ToDo
@@ -12,6 +12,7 @@ My goal is to take what I learned and create something I can share with the FFBE
 2. ~~Add data into Database - MYSQL Workbench or GCP commandline~~
 3. ~~Create Functionality for Controller~~
 4. Rework visual design of FXML
+5. Edit JSON data to split more data and fill empty fields.
 
 ## Getting Started
 
